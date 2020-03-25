@@ -1,0 +1,409 @@
+﻿/*清除盒子内外边距*/
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	
+	width: 1920px;
+	background-color: #f3f5f7;
+	/*height:1500px;*/
+	font-size: 16px;
+
+}
+/*清除列表样式*/
+li {
+	list-style: none;
+}
+/*清除a的下划线*/
+a {
+	text-decoration: none;
+}
+/*清除表单的选中方法效果*/
+input {
+	outline: none;
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*header start*/
+.header {
+	height: 71px;
+	/*background-color: pink;*/
+	padding-top: 44px ;
+}
+.logo {
+	float:left;
+	width: 197px;
+	padding-right: 45px;
+	/*margin-left: 360px;*/
+}
+
+.nav {
+	float: left;
+	height: 39px;
+	/*border-bottom: 2px;*/
+}
+.nav a {
+	display: block;
+	float:left;
+	padding: 11px 8px;
+	
+	margin-right: 35px;
+	height: 17px;
+	/*text-decoration: none;*/
+	font-sixe: 18px;
+	color: #050505;
+	/*background-color: #fff;*/
+
+}
+.nav a:hover {
+	 border-bottom: 2px solid #00a4ff;
+}
+.search {
+	float: left;
+	margin-left: 88px;
+	width: 410px;
+	height: 40px;
+}
+.search input {
+	height: 36px;
+	width: 359px;
+	float: left;
+	border: 1px solid #00a4ff;
+	/*border-left: 1px solid #00a4ff;
+	border-bottom: 1px solid #00a4ff;*/
+	text-indent: 18px;
+	color: #bfbfbf;
+	font-size: 14px;
+}
+.search img {
+	float: left;
+	width: 49px;
+	height: 100%;
+
+}
+.user {
+	float: left;
+	margin-left: 30px;
+	height: 40px;
+	float: left;
+	vertical-align: middle;
+
+}
+.user img {
+	/*float: left;*/
+	/*height: 100%;*/
+	vertical-align: middle;
+}
+.user span {
+	/*float: left;*/
+	padding-left: 5px;
+	color: #666666;
+	font-size: 14px;
+	vertical-align: middle;
+
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+	height: 420px;
+	background: #1c036c url(../images/banner_02.jpg) no-repeat top center;
+	/*C:\\Users\\admin\\Desktop\\已完成小案例\\1.学成网首页\\images\\banner_02.jpg*/
+}
+.sidebanner1 {
+	float: left;
+	width: 150px;
+	height: 412px;
+	padding: 8px 20px 0px;
+	background: rgba(0,0,0,.3);
+}
+
+.sidebanner1 li {
+	height: 45px;
+	line-height: 45px;
+}
+.sidebanner1 span {
+	float: right;
+}
+.sidebanner1 li a {
+	color: #fff;
+	font-size: 14px;
+}
+.sidebanner1  li a:hover {
+	color: #00b4ff;
+}
+
+.sidebanner2 {
+	float: right;
+	margin-top: 50px;
+	width: 230px;
+	height: 300px;
+	background-color: #fff;
+}
+.course {
+	height: 48px;
+	line-height: 48px;
+	background-color: #9bceea;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+.listcourse {
+	height: 195px;
+	padding: 0px 17px;
+	margin: 0px;
+}
+.listcourse li {
+	height: 48px;
+	padding-top: 13px;
+	/*padding-bottom: 14px;*/
+	border-bottom: 1px solid #eaeaea;
+}
+.listcourse .text1 {
+	color: #4e4e4e;
+	font-size: 16px;
+}
+.listcourse .text2 {
+	color: #4e4e4e;
+	font-size: 14px;
+}
+.listcourse .text3 {
+	color: #c9c9c9;
+	font-size: 12px;
+}
+.btn  a {
+	display: inline-block;
+	height: 38px;
+	width: 198px;
+	margin-left:14px;
+	line-height: 38px;
+	font-size: 16px;
+	text-align: center;
+	color: #00a4ff;
+	border: 1px solid #00a4ff;
+}
+.btn a:hover {
+	background-color: #00a4ff;
+	color: #fff;
+}
+.banner {
+	position: relative;
+}
+
+.banner .lunbo {
+	position: absolute;
+	left: 50%;
+	bottom: 34px;
+	margin-left: -100px;
+	width: 176px;
+	height: 12px;
+	/*background-color: pink;*/
+
+}
+.banner .lunbo li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin-right: 16px;
+	border-radius: 6px;
+	background: rgba(255,255,255,.5);
+}
+.banner .lunbo a:hover li {
+	background-color: #fafafa;
+	width: 19px;
+	height: 12px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+/*banner end*/
+/*goods start*/
+.goods {
+	height: 60px;
+	line-height: 60px;
+	margin-top: 8px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+}
+.goods .side1 {
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	margin-left: 34px;
+	font-size: 16px;
+	color: #00a4ff;
+}
+.goods ul {
+	float: left;
+	margin-left:23px;
+}
+.goods  li {
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	margin-top: 22px;
+	padding-left:36px;
+	padding-right:36px;
+	border-left:1px solid #bfbfbf ;
+	
+}
+.goods li a{
+	font-size: 16px;
+	color: #454545;
+	text-align: center;
+}
+
+.goods .side3 {
+	float: right;
+	padding-right: 26px;
+	
+}
+.goods .side3 a {
+	font-size:14px;
+	color: #00a4ff;
+}
+
+/*goods end*/
+
+/*content1 start*/
+.content1 {
+/*不给高度，因为有时内容的数目不一样，靠内容撑开。*/
+margin-top: 36px;
+}
+.content1 .name {
+
+	color: #686969;
+	font-size: 20px;
+}
+.content1 .check {
+	margin-right:30px;
+	float: right;
+	color: #a5a5a5;
+	font-size: 12px;
+}
+.content1 ul {
+	width: 1215px;
+	margin-top: 21px;
+	/*background-color: white;*/
+}
+.content1 ul li {
+	position: relative;
+	float: left;
+	width: 228px;
+	height: 270px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+	background-color: white;
+	/*background-color: blue;*/
+	/*text-align: center;*/
+}
+.content1  h3 {
+	width: 189px;
+	height: 32px;
+	margin-top: 25px;
+	margin-left: 20px;
+	color: #050505;
+	font-size: 14px;
+	text-align:left;
+}
+.content1 p {
+	margin-left: 24px;
+	margin-top: 20px;
+	color: #c6c6c6;
+	font-size: 12px;
+}
+.content1 p span {
+	color: #ff7c2d;
+}
+.content1 .hot {
+	position: absolute;
+	right: -3px;
+	top: 0px;
+	width: 40px;
+	height: 24px;
+
+}
+/*content1 end*/
+/*fixed start*/
+ .fixed {
+	position: absolute;
+/*	若想改为不随鼠标移动的固定栏，则用以下
+	position: fixed;
+	height: 426px;*/
+	width: 186px;
+	left: 50%;
+	margin-left: -800px;
+	top: 130%;
+	margin-top: -213px;
+	background-color: #fff;
+}
+.fixed ul {
+	margin-top: 20px;
+}
+.fixed ul li {
+	height: 20px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	color: black;
+	font-size: 14px;
+}
+.fixed ul a:hover li{
+	color: #00a4ff;
+}
+/*fixed end*/
+/*.footer start*/
+.footer {
+	height: 415px;
+	margin-top: 620px;
+	background-color: #fff;
+}
+.footer .help {
+	float: right;
+	margin-right: 30px;
+	margin-top: 33px;
+}
+.footer dl {
+	float: left;
+	margin-left: 60px;
+}
+.footer .help dt {
+	margin-bottom: 16px;
+	color: #333333;
+	/*color: blue;*/
+	/*font-size: 16px;*/
+	font-size: 20px;
+}
+.footer .w .help dd {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.footer .flag {
+	float: left;
+	margin-top: 33px;
+}
+.footer p {
+	margin-top: 25px;
+	color: #666666;
+	font-size: 12px;
+}
+.footer .flag a {
+	display: block;
+	width: 118px;
+	height: 34px;
+	line-height: 34px;
+	margin-top: 17px;
+	border: 1px solid #00a4ff;
+	color: #00a4ff;
+	text-align: center;
+
+
+}
+/*.footer end*/
